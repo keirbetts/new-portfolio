@@ -1,0 +1,10 @@
+.con{
+margin-left: 520px; 
+}
+
+
+@media(max-width: 769px){
+  .con{
+    margin: 0;
+  }
+}

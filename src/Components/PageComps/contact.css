@@ -1,0 +1,11 @@
+
+
+@media(max-width: 969px){
+  .icon{
+    display:none
+  }
+  .tag{
+    margin-left: -300px;
+    margin-top: -50px;
+  }
+}

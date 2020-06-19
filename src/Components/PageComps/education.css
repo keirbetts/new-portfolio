@@ -1,0 +1,62 @@
+/* .title{
+  color: black;
+} */
+
+.con-top{
+  margin-top: -215px; 
+}
+
+.con-top h1{
+margin-bottom: 20px; 
+ color: black; 
+ margin-left: 70px; 
+font-family: 'Courier New';
+margin-top: -70px;
+}
+
+.dates{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif
+}
+.dates2{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+.info{
+  color:black;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.info2{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+@media(max-width: 769px){ 
+  .con-top{
+   margin: 0;
+      padding: 0;
+  } 
+  .con-top h1{
+    margin-top: -230px;
+    margin-bottom: -20px;
+    margin-left: -15px;
+  }
+.dates{
+    margin-top: 0px; 
+   margin-bottom: -50px;
+}
+.info{
+  margin-top: 60px;
+}
+  .dates2{
+     margin-top: -50px;
+  }
+  .info2{
+    margin-top: 0px;
+  }
+}

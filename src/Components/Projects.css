@@ -1,0 +1,32 @@
+.projects h1{
+   color: black;
+  margin-top: -165px;
+  margin-bottom: 2rem;
+  font-family: 'Courier New';
+}
+
+.projects h2{
+margin-left: 20px;
+font-family: Arial;
+}
+.projects h3{
+margin-left: 450px;
+font-family: Arial;
+}
+
+@media(max-width: 769px){
+  .projects h2{
+margin-left: 75px;
+}
+.projects h3{
+margin-left: 300px;
+padding: 0;
+}
+}
+
+@media(max-width: 1269px){
+.projects h3{
+margin-left: 00px;
+padding: 0;
+}
+}

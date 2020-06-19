@@ -1,0 +1,39 @@
+
+
+.container h1{
+ margin-bottom: 20px; 
+ color: black; 
+ margin-left: 70px; 
+font-family: 'Courier New';
+margin-top: -70px;
+} 
+
+.container{
+  font-size: 25px;
+  margin-top: -100px;
+   margin-left: 420px;
+color: black;
+font-family: Arial;
+
+}
+
+
+
+
+@media(max-width: 769px){
+  /* .container h1{
+    display: block;
+    margin: 0;
+    padding: 0;
+  } */
+  .container{
+     margin: 0;
+      padding: 0;
+  }
+  .container h1{
+    margin-top: -70px;
+    margin-bottom: 0;
+    margin-left: -15px;
+    }
+}
+
