@@ -14,7 +14,7 @@ const PyComp = () => {
               <Card.Body>
                 <Card.Title>Python Space Invaders</Card.Title>
                 <Card.Text>
-                  A project built over five days designed to showcase functionality
+                  Space Invaders With A Topical Twist
     </Card.Text>
                 <Card.Link style={{ fontFamily: 'Arial' }} href="https://github.com/keirbetts/python-coronavirus-space-invaders" target='_blank'>Github</Card.Link>
               </Card.Body>
@@ -25,8 +25,7 @@ const PyComp = () => {
               <Card.Body>
                 <Card.Title>Python Pong Game</Card.Title>
                 <Card.Text>
-                  Made when I first began learning React. This project was
-                  completed using pair programming
+                  Retro Pong Game built with Python
     </Card.Text>
                 <Card.Link style={{ fontFamily: 'Arial' }} href="https://github.com/keirbetts/python-pong-game" target='_blank'>Github</Card.Link>
               </Card.Body>
@@ -37,7 +36,7 @@ const PyComp = () => {
               <Card.Body>
                 <Card.Title>Automated Web Search</Card.Title>
                 <Card.Text>
-                  A React project built to search and watch Youtube with ease
+                  Runs an Automated Google Seach using Python
     </Card.Text>
                 <Card.Link style={{ fontFamily: 'Arial' }} href="https://github.com/keirbetts/python-web-search" target='_blank'>Github</Card.Link>
               </Card.Body>

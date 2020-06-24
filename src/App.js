@@ -1,9 +1,8 @@
-import React from 'react';
 import Toolbar from './Components/Toolbar';
 import Sidedrawer from './Components/Sidedrawer';
 import Backdrop from './Components/Backdrop';
 import './App.css'
-import { Component } from 'react';
+import { Component, React } from 'react';
 import Footer from './Components/Footer';
 import { Router } from "@reach/router";
 import Projects from './Components/Projects';

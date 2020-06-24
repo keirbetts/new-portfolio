@@ -13,7 +13,7 @@ const MevnComp = () => {
               <Card.Body>
                 <Card.Title>Full Stack RPG</Card.Title>
                 <Card.Text>
-                  Bit of fun with MongoDB, Express, Vue, Node
+                  Simple RPG Built With MongoDB, Express, Vue, Node
     </Card.Text>
                 <Card.Link style={{ fontFamily: 'Arial' }} href="https://github.com/keirbetts/MEVN-project-one" target='_blank'>Github</Card.Link>
               </Card.Body>
