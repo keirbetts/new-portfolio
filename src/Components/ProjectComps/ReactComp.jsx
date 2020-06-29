@@ -10,7 +10,8 @@ const ReactComp = () => {
       <Container fluid='true' className='con' style={{ marginLeft: '110px' }}>
         <Row>
           <Col lg={true} >
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png' />
               <Card.Body>
                 <Card.Title>NC News Front-End</Card.Title>
                 <Card.Text>
@@ -22,7 +23,8 @@ const ReactComp = () => {
             </Card>
           </Col>
           <Col lg={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png' />
               <Card.Body>
                 <Card.Title>React Student Tracker</Card.Title>
                 <Card.Text>
@@ -34,11 +36,14 @@ const ReactComp = () => {
             </Card>
           </Col>
           <Col lg={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }} >
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }} >
+              <Card.Img variant='top' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png' />
               <Card.Body>
                 <Card.Title>React Videos</Card.Title>
                 <Card.Text>
-                  A React project built to search and watch Youtube with ease
+                  A React project built to search and watch Youtube with ease.
+                  Makes use of Material UI
+
     </Card.Text>
                 <Card.Link style={{ fontFamily: 'Arial' }} href="https://github.com/keirbetts/react-vidoes" target='_blank'>Github</Card.Link>
               </Card.Body>

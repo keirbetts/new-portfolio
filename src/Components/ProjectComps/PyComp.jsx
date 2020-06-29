@@ -10,7 +10,8 @@ const PyComp = () => {
       <Container fluid className='con2'>
         <Row>
           <Col lg={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '28rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://cdn.clipart.email/bae8bcf9673ca907cdd470bfd973940d_python-logo-clipart-transparent-background-png-download-full-_982-982.png' />
               <Card.Body>
                 <Card.Title>Python Space Invaders</Card.Title>
                 <Card.Text>
@@ -21,7 +22,8 @@ const PyComp = () => {
             </Card>
           </Col>
           <Col lg={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '28rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://cdn.clipart.email/bae8bcf9673ca907cdd470bfd973940d_python-logo-clipart-transparent-background-png-download-full-_982-982.png' />
               <Card.Body>
                 <Card.Title>Python Pong Game</Card.Title>
                 <Card.Text>
@@ -32,7 +34,8 @@ const PyComp = () => {
             </Card>
           </Col>
           <Col lg={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '12rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '28rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://cdn.clipart.email/bae8bcf9673ca907cdd470bfd973940d_python-logo-clipart-transparent-background-png-download-full-_982-982.png' />
               <Card.Body>
                 <Card.Title>Automated Web Search</Card.Title>
                 <Card.Text>

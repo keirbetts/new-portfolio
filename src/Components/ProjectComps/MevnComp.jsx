@@ -9,7 +9,8 @@ const MevnComp = () => {
       <Container fluid className='con'>
         <Row>
           <Col sm={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '10rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src='https://miro.medium.com/max/442/1*TjRR2msP6G116cSOr_96VA.png' />
               <Card.Body>
                 <Card.Title>Full Stack RPG</Card.Title>
                 <Card.Text>

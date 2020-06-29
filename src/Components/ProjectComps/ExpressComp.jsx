@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import './ExpressComp.css'
+import ex from '../../express.png'
 
 //Finish styling so responsive behaviour is more desirable
 
@@ -12,7 +13,9 @@ const ExpressComp = () => {
       <Container fluid className='con'>
         <Row>
           <Col sm={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '10rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src={ex} style={{ borderRadius: '50px 50px 0px 0px' }} />
+
               <Card.Body>
                 <Card.Title>NC News Back-End</Card.Title>
                 <Card.Text>

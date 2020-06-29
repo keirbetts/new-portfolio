@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import './ExpressComp.css'
+import cam from '../../camera.jpg'
 
 const Moments = () => {
   return (
@@ -9,7 +10,8 @@ const Moments = () => {
       <Container fluid className='con'>
         <Row>
           <Col sm={true}>
-            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: '11rem', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+            <Card border="primary" bg='info' text='white' style={{ width: '18rem', height: 'auto', borderRadius: '50px 50px 50px 50px', textAlign: 'center', fontFamily: 'Arial' }}>
+              <Card.Img variant='top' src={cam} style={{ borderRadius: '50px 50px 0px 0px' }} />
               <Card.Body>
                 <Card.Title>Moments Photo App</Card.Title>
                 <Card.Text>
