@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import './ExpressComp.css'
 
-//Finish styling so responsicve behaviour is more desirable
+//Finish styling so responsive behaviour is more desirable
 
 
 const ExpressComp = () => {

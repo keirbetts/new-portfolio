@@ -16,7 +16,7 @@ const Projects = () => {
             <Button style={{ fontFamily: 'Arial', color: 'white' }} href='/projects/react' variant="info" size='lg'>React</Button>
           </Col>
           <Col lg={2}>
-            <Button style={{ fontFamily: 'Arial', color: 'white' }} href='/projects/react' variant="info" size='lg'>Express</Button>
+            <Button style={{ fontFamily: 'Arial', color: 'white' }} href='/projects/express' variant="info" size='lg'>Express</Button>
           </Col>
           <Col lg={2}>
             <Button style={{ fontFamily: 'Arial', color: 'white' }} href='/projects/python' variant="info" size='lg'>Python</Button>
